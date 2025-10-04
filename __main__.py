@@ -19,8 +19,8 @@ parser.add_argument("-mc", action="store_true")
 argv = parser.parse_args(argv[1:])
 
 if argv.recipe:
-    if recipeFormat.fullmatch(argv.r):
-        add_recipe(argv.r)
+    if recipeFormat.fullmatch(argv.recipe):
+        add_recipe(argv.recipe)
     else:
         raise ValueError("Invalid recipe format (<count>*<item>:<count>*<item>, <count>*<item>, ...)")
 
