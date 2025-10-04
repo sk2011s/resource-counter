@@ -19,5 +19,9 @@ python __main__.py -r "4*torch:1*coal, 1*stick"
 
 - We need 64 of torch How many resources does it require?
     - ```bash
-        python __main__.py -e torch -c 64
+        python __main__.py -e torch -c 800
+      ```
+- or this for minecraft stack size
+    - ```bash
+        python __main__.py -e torch -c 800 -mc
       ```
