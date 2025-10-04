@@ -1,8 +1,1 @@
-{
-  "torch": {
-    "integration": {
-      "stick": 0.25,
-      "coal": 0.25
-    }
-  }
-}
+
